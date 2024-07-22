@@ -175,6 +175,7 @@ end
 			end
 			_db._manualPosition = pos;
 		end
+		_G.alaChatPoistion = _db._manualPosition;
 	end
 	function Docker:LoadManualPosition()
 		local pos = _db._manualPosition;print("LOAD", pos)

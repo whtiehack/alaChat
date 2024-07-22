@@ -572,6 +572,9 @@ end
 				__db.companion.ShowSubGroup = false;
 				__db.companion.PlayerLinkFormat = "<#@INDEX, ##LvLEVEL#> ";
 			end
+			if __db.docker ~= nil and _G.alaChatPoistion ~= nil then
+				__db.docker._manualPosition = _G.alaChatPoistion
+			end
 		end
 		DisableOldVersion();
 		__db.__version = 240605.02;
